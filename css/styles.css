@@ -1,0 +1,24 @@
+/*-------------------- RESET --------------------*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 10px div by def of 16px ==>> 62.5% */
+  /* 100% is better for zoom consistence */
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+/*-------------------- BREAKPOINTS --------------------*/
+/* Desktop > 992px > Tablet > 768px > Mobile  */
+
+/*-------------------- HEADER --------------------*/
