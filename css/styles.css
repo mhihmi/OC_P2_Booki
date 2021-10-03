@@ -18,7 +18,32 @@ body {
   box-sizing: border-box;
 }
 
-/*-------------------- BREAKPOINTS --------------------*/
-/* Desktop > 992px > Tablet > 768px > Mobile  */
+/*-------------------- GENERAL STYLES --------------------*/
 
-/*-------------------- HEADER --------------------*/
+:root {
+  --color-page-bg: #f2f2f2;
+  --color-text: #000000;
+  --color-primary: #0065fc;
+  --color-secondary: #deebff;
+  --color-border: #d9d9d9;
+  --color-primary-shadow: rgba(216, 216, 216, 0.3);
+  --color-secondary-shadow: rgba(190, 190, 190, 0.3);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: ;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
