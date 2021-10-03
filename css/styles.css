@@ -1,4 +1,6 @@
-/*-------------------- RESET --------------------*/
+/*------------------------------------------------*/
+/*                     RESET                      */
+/*------------------------------------------------*/
 
 *,
 *::after,
@@ -18,7 +20,9 @@ body {
   box-sizing: border-box;
 }
 
-/*-------------------- GENERAL STYLES --------------------*/
+/*------------------------------------------------*/
+/*                     GENERAL STYLES             */
+/*------------------------------------------------*/
 
 :root {
   --color-page-bg: #f2f2f2;
@@ -32,18 +36,55 @@ body {
 
 body {
   font-family: "Raleway", sans-serif;
-  font-size: ;
+  font-size: 30 px;
+  color: var(--color-text);
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 44px;
 }
 
 h2 {
+  font-size: 43px;
 }
 
 h3 {
+  font-size: 34px;
 }
 
-h4 {
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+ul {
+  list-style: none;
+}
+
+/*------------------------------------------------*/
+/*                     HEADER                     */
+/*------------------------------------------------*/
+
+.siteHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.siteLogo {
+  margin-top: 87px;
+}
+
+.siteNav {
+  margin-top: 97px;
+}
+
+.siteNav__list {
+  display: flex;
+}
+
+.siteNav__link {
+  padding-top: 93px;
+  padding-right: 10px;
+  /* padding: 99px 59px 0 44px; */
+  border-top: #0065fc 4px solid;
 }
