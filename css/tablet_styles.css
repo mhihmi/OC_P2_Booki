@@ -1,2 +1,17 @@
 @media screen and (max-width: 992px) {
+  /*------------------------------------------------*/
+  /*                     HEADER                     */
+  /*------------------------------------------------*/
+
+  .siteLogo {
+    margin-top: 32px;
+  }
+
+  .siteNav__list {
+    margin: 39px 0 4px 0;
+  }
+
+  .siteNav__link {
+    padding: 39px 28px 4px 37px;
+  }
 }

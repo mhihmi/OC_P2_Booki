@@ -1,2 +1,19 @@
 @media screen and (max-width: 768px) {
+  /*------------------------------------------------*/
+  /*                     HEADER                     */
+  /*------------------------------------------------*/
+  .pageWrapper {
+    margin: 0 auto;
+  }
+
+  .siteHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .siteLogo {
+    height: 90px;
+    margin-top: 42px;
+  }
 }
