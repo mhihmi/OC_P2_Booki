@@ -40,16 +40,14 @@ body {
   color: var(--color-text);
 }
 
-h1 {
-  font-size: 28px;
-}
-
+h1,
 h2 {
   font-size: 28px;
 }
 
 h3 {
   font-size: 22px;
+  font-weight: 600;
 }
 
 p {
@@ -77,17 +75,12 @@ ul {
 .siteHeader {
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .siteLogo {
   height: 60px;
-  margin-top: 62px;
-}
-
-.siteNav {
-  display: block;
-  overflow: hidden;
-  text-align: center;
+  margin: 62px 0 0 25px;
 }
 
 .siteNav__list {
@@ -102,9 +95,6 @@ ul {
 .siteNav__link {
   padding: 69px 28px 4px 37px;
   position: relative;
-  /* padding-right: 10px; */
-  /* padding: 99px 59px 0 44px; */
-  /* border-top: #0065fc 4px solid; */
 }
 
 .siteNav__link:hover {

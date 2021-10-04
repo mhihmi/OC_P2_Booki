@@ -1,10 +1,39 @@
 @media screen and (max-width: 992px) {
   /*------------------------------------------------*/
+  /*                     GENERAL STYLES             */
+  /*------------------------------------------------*/
+  body {
+    font-size: 16px;
+  }
+
+  h1,
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  .pageWrapper {
+    margin: 0 2vw;
+  }
+
+  /*------------------------------------------------*/
   /*                     HEADER                     */
   /*------------------------------------------------*/
 
   .siteLogo {
-    margin-top: 32px;
+    height: 52px;
+    margin: 32px 0 0 18px;
   }
 
   .siteNav__list {

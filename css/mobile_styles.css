@@ -1,19 +1,112 @@
 @media screen and (max-width: 768px) {
   /*------------------------------------------------*/
-  /*                     HEADER                     */
+  /*                     GENERAL STYLES             */
   /*------------------------------------------------*/
-  .pageWrapper {
-    margin: 0 auto;
+  body {
+    font-size: 14px;
   }
 
+  h1,
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  .pageWrapper {
+    margin: 0 0;
+  }
+
+  /*------------------------------------------------*/
+  /*                     HEADER                     */
+  /*------------------------------------------------*/
+
   .siteHeader {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .siteLogo {
-    height: 90px;
-    margin-top: 42px;
+    height: 45px;
+    margin-top: 21px;
+  }
+
+  .siteNav {
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+  }
+
+  .siteNav__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+
+  .siteNav__list::after {
+    content: "";
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-page-bg);
+    bottom: 0;
+    left: 0;
+  }
+
+  .siteNav__item {
+    flex: 50%;
+    margin: 0 0 0 0;
+  }
+
+  .siteNav__link {
+    padding: 16px 0 16px 0;
+    position: relative;
+    display: block;
+  }
+
+  .siteNav__link:hover::before {
+    display: none;
+  }
+
+  .siteNav__link:hover::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-primary);
+    bottom: 0;
+    left: 0;
+  }
+
+  .-active {
+    color: var(--color-primary);
+  }
+
+  .-active::before {
+    display: none;
+  }
+
+  .-active::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-primary);
+    bottom: 0;
+    left: 0;
   }
 }
