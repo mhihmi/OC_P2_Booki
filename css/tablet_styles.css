@@ -31,9 +31,12 @@
   /*                     HEADER                     */
   /*------------------------------------------------*/
 
+  .siteLinkHome {
+    padding: 32px 0 0 18px;
+  }
+
   .siteLogo {
     height: 52px;
-    margin: 32px 0 0 18px;
   }
 
   .siteNav__list {
