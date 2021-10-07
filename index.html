@@ -24,8 +24,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -44,8 +45,31 @@
         <!-- MAIN CONTENT -->
         <main class="mainContent">
             <section class="sectionSearch">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
+                <h1 class="sectionSearch__pageTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="sectionSearch__info">En plein centre ville ou en pleine nature</p>
+                <form action="/" method="post" class="form">
+                    <div class="inputGroup">
+                        <i class="fas fa-map-marker-alt inputGroup__iconMarker"></i>
+                        <input type="text" placeholder="Marseille, France" class="inputGroup__text">
+                        <button class="inputGroup__btn">
+                            <span class="inputGroup__btn -btnText">Rechercher</span>
+                            <i class="fas fa-search inputGroup__btn"></i>
+                        </button>
+                    </div>
+                    <div class="filterGroup">
+                        <span class="filterGroup__title">Filtres</span>
+                        <ul class="filterGroup__list">
+                            <li class="filterGroup__item">Économique</li>
+                            <li class="filterGroup__item">Familial</li>
+                            <li class="filterGroup__item">Romantique</li>
+                            <li class="filterGroup__item">Animaux autorisés</li>
+                        </ul>
+                    </div>
+                    <div class="infoGroup">
+                        <i class="fas fa-info infoGroup__icon"></i>
+                        <p class="inGroup__hostNbr">Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
+                </form>
             </section>
             <section class="sectionResult"></section>
         </main>

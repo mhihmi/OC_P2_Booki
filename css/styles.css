@@ -42,7 +42,9 @@ body {
 
 h1,
 h2 {
-  font-size: 28px;
+  font-size: 29px;
+  font-weight: 600;
+  letter-spacing: 0.006em;
 }
 
 h3 {
@@ -51,11 +53,12 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 21px;
+  letter-spacing: 0.008em;
 }
 
 a {
-  font-size: 20px;
+  font-size: 21px;
   text-decoration: none;
   color: var(--color-text);
 }
@@ -98,6 +101,7 @@ ul {
 .siteNav__link {
   padding: 69px 28px 4px 37px;
   position: relative;
+  letter-spacing: 0.014em;
 }
 
 .siteNav__link:hover {
@@ -109,7 +113,7 @@ ul {
   position: absolute;
   z-index: 0;
   width: 100%;
-  height: 4px;
+  height: 3px;
   background-color: var(--color-primary);
   top: 0;
   left: 0;
@@ -124,8 +128,148 @@ ul {
   position: absolute;
   z-index: 0;
   width: 100%;
-  height: 4px;
+  height: 3px;
   background-color: var(--color-primary);
   top: 0;
   left: 0;
 }
+
+/*------------------------------------------------*/
+/*                     MAIN                       */
+/*------------------------------------------------*/
+/* Main Section Search */
+
+.mainContent {
+}
+
+.sectionSearch {
+  margin-top: 44px;
+}
+
+.sectionSearch__pageTitle {
+  margin: 16px 0 12px 0;
+}
+
+.sectionSearch__info {
+}
+
+.form {
+  margin-top: 26px;
+}
+
+.inputGroup {
+  display: flex;
+  /* width: 559px; */
+}
+
+.inputGroup__iconMarker {
+  padding: 22px 26px 21px 25px;
+  font-size: 25px;
+  background: var(--color-page-bg);
+  border-radius: 22px 0 0 22px;
+}
+
+.inputGroup__text {
+  flex-basis: 17.5%;
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+  border-top: 1px solid var(--color-page-bg);
+  border-bottom: 1px solid var(--color-page-bg);
+}
+
+.inputGroup__btn {
+  cursor: pointer;
+  padding: 19px;
+  background: var(--color-primary);
+  border-radius: 0 22px 22px 0;
+  border: none;
+  color: #fff;
+}
+
+.inputGroup__btn i {
+  display: none;
+}
+
+.-btnText {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.filterGroup {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.filterGroup__title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 26px;
+  padding-top: 15px;
+}
+
+.filterGroup__list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.filterGroup__item {
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  margin-top: 13px;
+}
+
+.filterGroup__item:nth-child(n + 1) {
+  cursor: pointer;
+  border: 2px solid var(--color-border);
+  border-radius: 30px;
+  margin-left: 32px;
+  padding: 21px 30px 19px 84px;
+}
+
+.filterGroup__item:nth-child(n + 1)::before {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  width: 66px;
+  height: 71px;
+  border-radius: 50%;
+  font-family: "Font Awesome 5 Free";
+  font-size: 24px;
+  font-weight: 900;
+  display: inline-block;
+  position: absolute;
+  top: -2px;
+  left: -5px;
+  padding-top: 21px;
+  padding-left: 19px;
+}
+
+.filterGroup__item:nth-child(1)::before {
+  content: "\f53a";
+}
+.filterGroup__item:nth-child(2)::before {
+  content: "\f1ae";
+  padding-left: 23px;
+}
+.filterGroup__item:nth-child(3)::before {
+  content: "\f004";
+  padding-left: 20px;
+}
+.filterGroup__item:nth-child(4)::before {
+  content: "\f6d3";
+}
+
+.infoGroup {
+  display: flex;
+}
+/* Main Section Results */
+
+/* Main Section Activities */
+
+/*------------------------------------------------*/
+/*                     FOOTER                     */
+/*------------------------------------------------*/
