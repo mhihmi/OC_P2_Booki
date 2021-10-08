@@ -153,7 +153,7 @@ ul {
 
 .inputGroup {
   display: flex;
-  /* width: 559px; */
+  align-items: center;
 }
 
 .inputGroup__iconMarker {
@@ -164,8 +164,9 @@ ul {
 }
 
 .inputGroup__text {
-  flex-basis: 17.5%;
-  padding-left: 20px;
+  flex-grow: 1;
+  max-width: 320px;
+  padding: 19px;
   font-size: 24px;
   font-weight: 600;
   border: none;
@@ -175,7 +176,6 @@ ul {
 
 .inputGroup__btn {
   cursor: pointer;
-  padding: 19px;
   background: var(--color-primary);
   border-radius: 0 22px 22px 0;
   border: none;
@@ -189,6 +189,7 @@ ul {
 .-btnText {
   font-size: 24px;
   font-weight: 600;
+  padding: 19px;
 }
 
 .filterGroup {
@@ -215,17 +216,18 @@ ul {
   font-weight: 600;
   position: relative;
   margin-top: 13px;
-}
-
-.filterGroup__item:nth-child(n + 1) {
+  transition: all 0.4s;
   cursor: pointer;
   border: 2px solid var(--color-border);
   border-radius: 34px 30px 30px 34px;
-  margin-right: 32px;
   padding: 18px 30px 18px 84px;
 }
 
-.filterGroup__item:nth-child(n + 1)::before {
+.filterGroup__item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.filterGroup__item::before {
   color: var(--color-primary);
   background-color: var(--color-secondary);
   width: 67px;
@@ -259,7 +261,6 @@ ul {
 .filterGroup__item:hover {
   background-color: var(--color-secondary);
   border: 2px solid var(--color-secondary);
-  transition: all 1s;
   color: var(--color-primary);
 }
 
@@ -267,8 +268,6 @@ ul {
   margin-top: 47px;
 }
 
-.infoGroup__hostNbr {
-}
 .infoGroup__hostNbr::before {
   content: "\f129";
   color: var(--color-primary);

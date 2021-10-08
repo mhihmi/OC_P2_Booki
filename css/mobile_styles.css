@@ -9,6 +9,7 @@
   h1,
   h2 {
     font-size: 22px;
+    letter-spacing: 0;
   }
 
   h3 {
@@ -17,6 +18,7 @@
 
   p {
     font-size: 16px;
+    letter-spacing: 0;
   }
 
   a {
@@ -77,6 +79,7 @@
     padding: 16px 0 16px 0;
     position: relative;
     display: block;
+    letter-spacing: 0.006em;
   }
 
   .siteNav__link:hover::before {
@@ -118,18 +121,100 @@
 /*                     MAIN                       */
 /*------------------------------------------------*/
 /* Main Section Search */
-.mainContent {
-}
 
 .sectionSearch {
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.sectionSearch__pageTitle {
+  margin: 12px 0;
+}
+
+.form {
+  margin-top: 35px;
+}
+
+.inputGroup {
+  justify-content: center;
+}
+
+.inputGroup__iconMarker {
+  padding: 16px 20px;
+  font-size: 20px;
+  border-radius: 17px 0 0 17px;
+}
+
+.inputGroup__text {
+  min-width: 170px;
+  padding: 15px 10px 14px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-top: 1px solid var(--color-page-bg);
+  border-bottom: 1px solid var(--color-page-bg);
+}
+
+.inputGroup__btn {
+  padding: 0;
+  border-radius: 0 17px 17px 0;
 }
 
 .inputGroup__btn i {
   display: block;
+  font-size: 18px;
+  padding: 17px;
 }
 
 .-btnText {
   display: none;
+}
+
+.filterGroup {
+  margin-top: 15px;
+}
+
+.filterGroup__title {
+  font-size: 18px;
+}
+
+.filterGroup__item {
+  font-size: 16px;
+  padding: 14px 20px 14px 60px;
+}
+
+.filterGroup__item::before {
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.filterGroup__item:nth-child(2)::before {
+  padding-left: 19px;
+}
+.filterGroup__item:nth-child(3)::before {
+  padding-left: 17px;
+}
+
+.infoGroup {
+  margin-top: 30px;
+  padding-left: 36px;
+}
+
+.infoGroup__hostNbr {
+  position: relative;
+  line-height: 20px;
+}
+
+.infoGroup__hostNbr::before {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  padding: 1px 9px;
+  position: absolute;
+  left: -36px;
+  top: -2px;
 }
 
 /* Main Section Results */
