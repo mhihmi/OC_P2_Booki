@@ -125,7 +125,58 @@
   padding: 7px 12px;
 }
 /* Main Section Results */
+/* Hosts */
+.sectionResult {
+  margin-top: 40px;
+  flex-direction: column-reverse;
+}
 
+.searchResults {
+  background-color: #fff;
+  margin-right: 0;
+}
+
+.mostPopular__img {
+  width: 170px;
+  min-width: 170px;
+  height: 156px;
+}
+
+.mostPopular__info {
+  padding: 2.5% 6.6% 2% 5%;
+  min-width: 100px;
+}
+
+.mostPopular__price,
+.cardsContainer__price {
+  font-size: 16px;
+}
+
+.cardsContainer__hostRate {
+  font-size: 16px;
+}
+
+.mostPopular__hostRate {
+  font-size: 15px;
+}
+
+.mostPopular__titleIcon {
+  font-size: 22px;
+}
+
+.cardsContainer__link {
+  flex: 1 1 40%; /* grow shrink basis */
+}
+
+.searchResults__more {
+  margin-top: 30px;
+  text-indent: 4px;
+}
+
+.searchResults__moreLink {
+  font-size: 21px;
+}
+/* Most Popular */
 /* Main Section Activities */
 /*------------------------------------------------*/
 /*                     FOOTER                     */
