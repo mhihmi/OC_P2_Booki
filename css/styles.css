@@ -292,7 +292,7 @@ ul {
   background-color: var(--color-page-bg);
   /* padding: 62px 52px; */
   border-radius: 26px;
-  padding: 3.5% 3% 2.6% 2.8%;
+  padding: 3.5% 2% 2.6% 2%;
   margin-right: 2%;
   flex: 1 1 66%;
 }
@@ -336,7 +336,7 @@ ul {
   width: 100%;
   border-radius: 26px;
   object-fit: cover;
-  min-width: 270px;
+  min-width: 200px;
 }
 
 .cardsContainer__info {
