@@ -202,8 +202,8 @@ ul {
 .filterGroup__title {
   font-size: 24px;
   font-weight: 600;
-  margin-right: 32px;
-  padding: 15px 14px 0 0;
+  margin-right: 2%;
+  padding: 0.9% 0.8% 0 0;
 }
 
 .filterGroup__list {
@@ -282,7 +282,89 @@ ul {
   margin-right: 20px;
 }
 /* Main Section Results */
+/* Hosts */
+.sectionResult {
+  margin-top: 50px;
+  display: flex;
+}
 
+.searchResults {
+  background-color: var(--color-page-bg);
+  /* padding: 62px 52px; */
+  border-radius: 26px;
+  padding: 3.4% 2.8%;
+  margin-right: 2%;
+}
+
+.searchResults__title {
+  text-indent: 3px;
+}
+
+.cardsContainer {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.cardsContainer__link {
+  display: inline-block;
+  background-color: #fff;
+  flex-basis: 30%;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 26px;
+}
+
+.cardsContainer__card:hover .cardsContainer__title {
+  color: var(--color-primary);
+}
+
+.cardsContainer__img {
+  height: 152px;
+  width: 100%;
+  border-radius: 26px;
+  object-fit: cover;
+}
+
+.cardsContainer__info {
+  padding: 1% 5%;
+}
+
+.cardsContainer__title {
+  letter-spacing: -0.015em;
+}
+
+.cardsContainer__price {
+  font-size: 19px;
+  letter-spacing: 0.007em;
+  margin-top: 4%;
+}
+
+.cardsContainer__lowCost {
+  font-weight: 600;
+}
+
+.cardsContainer__hostRate {
+  margin-top: 3%;
+  font-size: 17px;
+  color: var(--color-primary);
+}
+
+.-greyStar {
+  color: var(--color-border);
+}
+/* Most Popular */
+.mostPopular {
+  background-color: var(--color-page-bg);
+  border-radius: 26px;
+  padding: 3.4% 2.8%;
+}
+
+.mostPopular__title {
+  display: flex;
+  justify-content: space-between;
+}
 /* Main Section Activities */
 
 /*------------------------------------------------*/
