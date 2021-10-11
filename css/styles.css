@@ -457,6 +457,64 @@ ul {
 }
 /* Main Section Activities */
 
+.activities {
+  margin-top: 85px;
+}
+
+.activities__container {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 3%;
+}
+
+.activities__containerCard:nth-child(even) {
+  justify-content: space-between;
+}
+
+.activities__containerCard {
+  flex: 0 1 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activities__link {
+  border-radius: 26px;
+  box-shadow: 0 10px 20px var(--color-primary-shadow),
+    0 6px 6px var(--color-secondary-shadow);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.activities__link:hover {
+  box-shadow: 0 15px 25px var(--color-secondary-shadow),
+    0 9px 9px var(--color-hover-shadow);
+  color: var(--color-primary);
+}
+
+.activities__cardImg {
+  border-radius: 26px 26px 0 0;
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+}
+
+.-h240 {
+  height: 240px;
+}
+
+.-h145 {
+  height: 145px;
+}
+
+.-h180 {
+  height: 186px;
+}
+
+.-h205 {
+  height: 205px;
+}
+.activities__cardTitle {
+  padding: 7% 7% 6% 7%;
+}
 /*------------------------------------------------*/
 /*                     FOOTER                     */
 /*------------------------------------------------*/

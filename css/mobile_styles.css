@@ -124,7 +124,7 @@
 
 .sectionSearch {
   margin-top: 30px;
-  padding: 0 20px;
+  padding: 0 5%;
 }
 
 .sectionSearch__pageTitle {
@@ -218,9 +218,18 @@
 }
 
 /* Main Section Results */
-/* Hosts */
+/* Hosts & Most Popular  */
 .sectionResult {
   margin-top: 35px;
+}
+
+.mostPopular {
+  border-radius: 0;
+  padding: 7% 5% 7% 5%;
+}
+
+.mostPopular__container {
+  margin-top: 15px;
 }
 
 .mostPopular__img {
@@ -230,7 +239,7 @@
 }
 
 .mostPopular__info {
-  padding: 2.5% 2% 2% 3%;
+  padding: 2.5% 7.5% 2% 7.5%;
 }
 
 .mostPopular__price,
@@ -252,6 +261,15 @@
 
 .cardsContainer__link {
   flex: 1 1 100%; /* grow shrink basis */
+  margin: 1.5% 1%;
+}
+
+.cardsContainer__img {
+  height: 115px;
+}
+
+.searchResults {
+  padding: 6.5% 5% 2% 5%;
 }
 
 .searchResults__more {
@@ -262,8 +280,30 @@
 .searchResults__moreLink {
   font-size: 18px;
 }
-/* Most Popular */
+
 /* Main Section Activities */
+
+.activities {
+  margin-top: 25px;
+  padding: 0 5%;
+}
+
+.activities__container {
+  flex-flow: column nowrap;
+}
+
+.activities__link {
+  margin-bottom: 7%;
+}
+
+.activities__cardImg {
+  height: 134px;
+}
+
+.activities__cardTitle {
+  padding: 5% 4% 3.5% 5%;
+}
+
 /*------------------------------------------------*/
 /*                     FOOTER                     */
 /*------------------------------------------------*/

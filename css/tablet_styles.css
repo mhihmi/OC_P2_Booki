@@ -125,7 +125,7 @@
   padding: 7px 12px;
 }
 /* Main Section Results */
-/* Hosts */
+/* Hosts & Most Popular */
 .sectionResult {
   margin-top: 40px;
   flex-direction: column-reverse;
@@ -154,6 +154,7 @@
 
 .cardsContainer__hostRate {
   font-size: 16px;
+  margin-top: 2.5%;
 }
 
 .mostPopular__hostRate {
@@ -168,6 +169,10 @@
   flex: 1 1 40%; /* grow shrink basis */
 }
 
+.cardsContainer__img {
+  height: 133px;
+}
+
 .searchResults__more {
   margin-top: 30px;
   text-indent: 4px;
@@ -176,8 +181,54 @@
 .searchResults__moreLink {
   font-size: 21px;
 }
-/* Most Popular */
+
 /* Main Section Activities */
+.activities {
+  margin-top: 31px;
+}
+
+.activities__container {
+  margin-top: 20px;
+  flex-flow: row wrap;
+}
+
+.activities__containerCard {
+  flex: 0 1 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activities__link {
+  margin-bottom: 7%;
+}
+
+.activities__cardImg {
+  height: 386px;
+}
+
+.-h240 {
+  height: 160px;
+}
+
+.-h145 {
+  height: 118px;
+}
+
+.-h180 {
+  height: 118px;
+}
+
+.-h205 {
+  height: 160px;
+}
+
+.activities__cardTitle {
+  padding: 6% 5% 4.5% 5%;
+}
+
+.activities__containerCard:nth-child(3) {
+  order: 1;
+}
 /*------------------------------------------------*/
 /*                     FOOTER                     */
 /*------------------------------------------------*/
