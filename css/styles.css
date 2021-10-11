@@ -458,7 +458,7 @@ ul {
 /* Main Section Activities */
 
 .activities {
-  margin-top: 85px;
+  margin: 80px 0;
 }
 
 .activities__container {
@@ -518,3 +518,13 @@ ul {
 /*------------------------------------------------*/
 /*                     FOOTER                     */
 /*------------------------------------------------*/
+
+.siteFooter {
+  display: flex;
+  background-color: var(--color-page-bg);
+  padding: 59px 3.5vw;
+}
+
+.siteFooter__container {
+  flex: 0 1 33%;
+}
