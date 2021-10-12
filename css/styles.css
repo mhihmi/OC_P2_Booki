@@ -335,6 +335,7 @@ ul {
   box-shadow: 0 15px 25px var(--color-secondary-shadow),
     0 9px 9px var(--color-hover-shadow);
   color: var(--color-primary);
+  transform: translateY(-2px);
 }
 
 /* .cardsContainer__card:hover .cardsContainer__title {
@@ -344,7 +345,7 @@ ul {
 .cardsContainer__img {
   height: 152px;
   width: 100%;
-  border-radius: 26px;
+  border-radius: 26px 26px 0 0;
   object-fit: cover;
   min-width: 200px;
 }
@@ -414,6 +415,7 @@ ul {
 .mostPopular__link:hover {
   box-shadow: 0 15px 25px var(--color-secondary-shadow),
     0 9px 9px var(--color-hover-shadow);
+  transform: translateY(-2px);
 }
 
 .mostPopular__card:hover .mostPopular__title {
@@ -488,6 +490,7 @@ ul {
   box-shadow: 0 15px 25px var(--color-secondary-shadow),
     0 9px 9px var(--color-hover-shadow);
   color: var(--color-primary);
+  transform: translateY(-2px);
 }
 
 .activities__cardImg {
