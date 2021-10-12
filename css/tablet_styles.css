@@ -232,3 +232,17 @@
 /*------------------------------------------------*/
 /*                     FOOTER                     */
 /*------------------------------------------------*/
+
+.siteFooter {
+  padding: 55px 3.5vw;
+  gap: 20px;
+}
+
+.siteFooter__title {
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+
+.siteFooter__item {
+  padding-top: 17px;
+}

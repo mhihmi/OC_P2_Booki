@@ -523,8 +523,27 @@ ul {
   display: flex;
   background-color: var(--color-page-bg);
   padding: 59px 3.5vw;
+  gap: 10px;
 }
 
 .siteFooter__container {
   flex: 0 1 33%;
+}
+
+.siteFooter__title {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.siteFooter__item {
+  padding-top: 19px;
+}
+
+.siteFooter__link {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  letter-spacing: 0.007em;
+}
+
+.siteFooter__link:hover {
+  color: var(--color-primary);
 }

@@ -307,3 +307,22 @@
 /*------------------------------------------------*/
 /*                     FOOTER                     */
 /*------------------------------------------------*/
+
+.siteFooter {
+  flex-direction: column;
+  padding: 45px 3.5vw;
+  gap: 30px;
+}
+
+.siteFooter__title {
+  font-size: 18px;
+  padding-bottom: 2px;
+}
+
+.siteFooter__item {
+  padding-top: 14px;
+}
+
+.siteFooter__link {
+  letter-spacing: 0;
+}
