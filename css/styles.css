@@ -348,10 +348,6 @@ ul {
   transform: translateY(-2px);
 }
 
-/* .cardsContainer__card:hover .cardsContainer__title {
-  color: var(--color-primary);
-} */
-
 .cardsContainer__img {
   height: 152px;
   width: 100%;
