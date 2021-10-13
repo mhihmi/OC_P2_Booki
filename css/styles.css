@@ -35,6 +35,16 @@ body {
   --color-hover-shadow: rgba(0, 101, 252, 0.2);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
