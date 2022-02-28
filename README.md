@@ -1,4 +1,7 @@
 # OC_P2_Booki : Transformez une maquette en site web avec HTML & CSS
+
+[![HitCount](https://hits.dwyl.com/mhihmi/OC_P2_Booki.svg?style=flat&show=unique)](# "Unique view count")
+[![HitCount](https://hits.dwyl.com/mhihmi/OC_P2_Booki.svg?style=flat)](# "All view count")
 > Intégration de Maquette - Parcours Openclassrooms Développeur Web
 
 Vous avez trouvé votre premier stage en tant que développeur web chez Booki, une petite entreprise proposant un outil de planification de vacances ! Son site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.
